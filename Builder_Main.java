@@ -9,11 +9,11 @@ public class Builder_Main {
             .build();
 
         Personagem mago = new MagoBuilder()
-            .comNome("Merlin");
+            .comNome("Merlin").build();
 
 
         Personagem arqueiro = new ArqueiroBuilder()
-            .comNome("Ashe");
+            .comNome("Ashe").build();
 
         System.out.println("=== GUERREIRO ===");
         System.out.println(guerreiro);

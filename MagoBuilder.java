@@ -21,6 +21,31 @@ public class MagoBuilder implements PersonagemBuilder {
         return this;
     }
 
+    @Override
+    public PersonagemBuilder comMana(int mana) {
+        this.mana = mana;
+        return this;
+    }
+
+    @Override
+    public PersonagemBuilder comForca(int forca) {
+        this.forca = forca;
+        return this;
+    }
+
+    @Override
+    public PersonagemBuilder comInteligencia(int inteligencia) {
+        this.inteligencia = inteligencia;
+        return this;
+    }
+
+
+    @Override
+    public PersonagemBuilder comAgilidade(int agilidade) {
+        this.agilidade = agilidade;
+        return this;
+    }
+
 
     @Override
     public Personagem build() {
